@@ -32,26 +32,53 @@ public class Main {
 //        //----if-then statements
 
 
-        boolean isAlien = false;
+//        boolean isAlien = false;
+//
+//        if( isAlien == false){
+//
+//            System.out.println( "Its not an alien");
+//
+//        }
+//
+//        int topScore = 100;
+//        if (topScore < 100 ) {
+//            System.out.println("Top score is less than 100");
+//        }
+//
+//        int secondTopScore = 95;
+//        if ((topScore > secondTopScore) && (topScore < 100)) {
+//            System.out.println("Greater than second top score and less than 100");
+//        }
+//
+//        if ((topScore > 90) || (secondTopScore <= 90 ) ) {
+//            System.out.println(" it works");
 
-        if( isAlien == false){
+//        boolean isCar = false ;
+//
+//        if(isCar == true) {
+//            System.out.println("This is true");
+//        }
+//
+//        isCar = true;
+//
+//        boolean wasCar = isCar ? true : false;
+//        if(wasCar) {
+//            System.out.println("woow this is true ");
+//        }
 
-            System.out.println( "Its not an alien");
+        double myFirstNumber = 20.00d;
+        double mySecondNumber = 80.00d;
+        double sumOfTheNumbers = (myFirstNumber + mySecondNumber) * 100.00d;
+        System.out.println("the sum of the two numbers = " + sumOfTheNumbers);
+       double myTotalValue = sumOfTheNumbers % 40.00d;
+        System.out.println("the remainder is  =" + myTotalValue);
 
+        boolean theNewSum = (myTotalValue == 0) ? true : false;
+        System.out.println(" isNoRemainder = " + theNewSum);
+
+        if( !theNewSum ) {
+            System.out.println("Got some remainder");
         }
 
-        int topScore = 100;
-        if (topScore < 100 ) {
-            System.out.println("Top score is less than 100");
-        }
-
-        int secondTopScore = 95;
-        if ((topScore > secondTopScore) && (topScore < 100)) {
-            System.out.println("Greater than second top score and less than 100");
-        }
-
-        if ((topScore > 90) || (secondTopScore <= 90 ) ) {
-            System.out.println(" it works");
-        }
     }
 }
